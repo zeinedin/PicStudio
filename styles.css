@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&family=Inter:wght@400;700&display=swap');
+
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar-brand{
+    margin-left: 100px;
+}
+.navbar-nav{
+    margin-right: 100px;
+}
+.navbar-nav .nav-item.nav-link:hover{
+    color: #F05454;
+}
+#home{
+    margin-top: 10rem;
+    margin-left: 100px;
+    margin-right: 100px
+}
+.heroimg{
+    border-radius: 5px;
+}
+#home h3{
+    font-family: 'IM Fell English', serif;
+    margin-bottom: 1rem;
+}
+#home .pgHero{
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+}
+#home .btn-danger{
+    background-color: #F05454;
+    width: 22rem;
+    margin-right: 2rem;
+}
+#home .btn-danger:hover{
+    background-color: #f10707;
+}
+#home .btn-primary{
+    width: 22rem;
+    background-color: #30475E;
+}
+#home .btn-primary:hover{
+    background-color: #02305d;
+}
+#overOns{
+    margin-top: 15rem;
+    margin-bottom: 10rem;
+}
+#overOns h1{
+    font-family: 'IM Fell English', serif;
+}
+#overOns img{
+    margin-left: 100px;
+}
+#overOns .content{
+    margin-left: 2rem;
+    margin-right: 100px;
+    width: 40%;
+}
+#overOns .pgHeroo{
+    margin-top: 2rem;
+}
+#diensten .container .display-5{
+    font-family: 'IM Fell English', serif;
+    margin-bottom: 5rem;
+}
+.card-img-top{
+    height: 200px;
+    width: 350px;
+   margin: 15px auto;
+}
+.btmCard{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+#diensten .btn-primary{
+    width: 22rem;
+    background-color: #30475E;
+}
+#diensten .btn-primary:hover{
+    background-color: #02305d;
+}
+/* Klanten Reacties */
+#reacties {
+    margin-top: 5rem;
+    padding-top: 5rem;
+    text-align: center;
+    background-color: #30475E;
+    color: #fff;
+}
+#reacties p{
+    font-weight: 700;
+}
+#reacties h5{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.testimonial-img {
+    width: 10%;
+    height: 7rem;
+    border-radius: 5%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* Contact Sectie */
+#contactOns{
+    margin-top: 8rem;
+}
+#contactOns .row{
+    margin-top: 4rem;
+}
+#contactOns ul{
+    list-style: none;
+    font-size: 25px;
+}
+.socials{
+    margin-top: 5rem;
+}
+i{
+    font-size: 50px;
+    color: #02305d;
+}
+i:hover{
+    color: #F05454;
+}
+footer{
+    width: 100%;
+    margin-top: 2rem;
+}
+.waterMark{
+    width: 100%;
+    background-color: #F05454;
+    text-align: center;
+    color: white;
+}
+.copy{
+    background-color: #30475E;
+    text-align: center;
+    color: white;
+}
+
+
+
+@media (max-width: 575.98px) { 
+    
+ }
+
+@media (max-width: 767.98px) {  }
+
+@media (max-width: 991.98px) {  }
+
+@media (max-width: 1199.98px) {  }
+
+@media (max-width: 1399.98px) {  }

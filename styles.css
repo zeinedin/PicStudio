@@ -211,6 +211,7 @@ footer{
     }
     .locatieimg{
        width: 350px;
+       padding-left: 2rem;
     }
     #contactOns ul{
         font-size: 20px;
@@ -225,11 +226,3 @@ footer{
         font-size: 10px;
     }
  }
-
-@media (max-width: 767.98px) {  }
-
-@media (max-width: 991.98px) {  }
-
-@media (max-width: 1199.98px) {  }
-
-@media (max-width: 1399.98px) {  }

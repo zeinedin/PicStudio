@@ -25,9 +25,15 @@
     font-family: 'IM Fell English', serif;
     margin-bottom: 1rem;
 }
+#home .text-left{
+    font-size: 40px;
+}
 #home .pgHero{
     margin-bottom: 2rem;
     margin-right: 1rem;
+}
+.anotherOne{
+    display: none;
 }
 #home .btn-danger{
     background-color: #F05454;
@@ -145,10 +151,79 @@ footer{
     color: white;
 }
 
-
-
 @media (max-width: 575.98px) { 
-    
+    nav{
+        width: 100%;
+        overflow: hidden;
+    }
+   
+    .navbar-brand{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .navbar-nav{
+        margin-right: 0;
+    }
+    .navbar-toggler{
+        margin-left: 0rem;
+        font-size: 20px;
+    }
+    #home {
+        margin: 10rem auto;
+    }
+    #home .text-left{
+        font-size: 25px;
+        font-weight: bolder;
+        text-align: center;
+    }
+    .pgHero{
+        display: none;
+    }
+    .anotherOne{
+        display: block;
+        text-align: center;
+        margin-top: 3rem;
+    }
+    .btn-danger{
+        margin: 5rem 2rem 0;
+    }
+    .btn-primary{
+         margin: 0.4rem 2rem 0;
+
+    }
+    #home .heroimg{
+        margin: 2rem 6.5rem;
+    }
+    .overOnsimg{
+        width: 60%;
+        position:relative;
+        left: 2;
+    }
+    #overOns .content{
+        margin: 2rem auto;
+        width: 80%;
+    }
+    #overOns h1{
+        text-align: center;
+    }
+    .testimonial-img{
+        width: 50%;
+    }
+    .locatieimg{
+       width: 350px;
+    }
+    #contactOns ul{
+        font-size: 20px;
+    }
+    .waterMark{
+        font-size: 10px;
+    }
+    .waterMark img{
+        width: 100px;
+    }
+    .copy{
+        font-size: 10px;
+    }
  }
 
 @media (max-width: 767.98px) {  }
